@@ -3,6 +3,6 @@ services:
     build: .
     image: ghcr.io/willrawipas/bookinfo-productpage:dev
     ports:
-      - "8083:8083"
+      - "8083:80833"
     environment:
       SERVICE_VERSION: v1
